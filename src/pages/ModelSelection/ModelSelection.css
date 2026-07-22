@@ -1,0 +1,79 @@
+.model-page{
+
+    width:100%;
+
+}
+
+.model-page h1{
+
+    font-size:34px;
+
+    color:#1F2937;
+
+}
+
+.model-page p{
+
+    margin-top:8px;
+
+    margin-bottom:30px;
+
+    color:#6B7280;
+
+}
+
+.model-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-bottom:35px;
+
+}
+
+.model-buttons button{
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#E5E7EB;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.model-buttons button:hover{
+
+    background:#CBD5E1;
+
+}
+
+.model-buttons .active{
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+.parameter-panel{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,.08);
+
+}

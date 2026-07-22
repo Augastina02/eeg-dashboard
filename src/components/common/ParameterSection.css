@@ -1,0 +1,63 @@
+.parameter-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    border:1px solid #E2E8F0;
+
+    margin-bottom:25px;
+
+    overflow:hidden;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.05);
+
+}
+
+.parameter-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 25px;
+
+    background:#F8FAFC;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.parameter-header:hover{
+
+    background:#EEF4FF;
+
+}
+
+.parameter-header h3{
+
+    margin:0;
+
+    font-size:18px;
+
+    color:#2563EB;
+
+}
+
+.arrow{
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+.parameter-body{
+
+    padding:25px;
+
+}
